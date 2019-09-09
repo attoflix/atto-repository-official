@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.subtitles.opensubtitles"
+       name="OpenSubtitles.org"
+       version="5.0.16"
+       provider-name="amet, opensubtitles">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>OpenSubtitles</summary>   
+    <description lang="en">Você deve criar uma conta www.opensubtitles.org,Uma vez que a conta foi criada em opensubtitles, vá em System/Add-ons/Install from repository/"Atto Pixel 4K Repository"/legendas/"OpenSubtitles.org" e dar Configurar e digite o nome de usuário e senha previamente criado em OpenSubtitles.org. Pronto!</description>
+    <news>
+v5.0.16 (2016-11-26) by opensubtitles
+- Changed descriptions, icons, fanart... (by opensubtitles)
+
+v5.0.15 (2016-11-26) by amet
+- disable anonymous login, users need to register on opensubtitles.org and login in addon settings.
+	</news>
+    <platform>all</platform>
+	<language></language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>https://forum.opensubtitles.org/viewtopic.php?f=8&amp;t=15847</forum>
+    <website>http://www.opensubtitles.org</website>
+    <email>admin [at] opensubtitles {dot} org</email>                                               
+	<assets>
+	    <icon>resources/media/os_logo_512x512.png</icon>
+	    <fanart>resources/media/os_fanart.jpg</fanart>    
+		<screenshot>resources/media/screenshot_1.jpg</screenshot>
+		<screenshot>resources/media/screenshot_2.jpg</screenshot>
+		<screenshot>resources/media/screenshot_3.jpg</screenshot>				
+	</assets>
+    <source>https://github.com/opensubtitles/service.subtitles.opensubtitles</source>    
+  </extension>
+</addon>

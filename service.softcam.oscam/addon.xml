@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.softcam.oscam"
+       name="[B]OS[/B][COLOR blue]Cam[/COLOR]"
+       version="30.1.17"
+       provider-name="[COLOR aqua]LeandrT[/COLOR]">
+  <requires>
+	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary lang="en">OSCAM: OSCam is an Open Source Conditional Access Module software.</summary>
+	    <summary lang="pt_BR">OSCam: Instale se não abrir pelo IKaS gratuito.</summary>
+	    <description lang="en">OSCAM stands for "Open Source Conditional Access Modul", basically this is the result of collaboration of several developers from different countries and still is in development, and you can always get the most updated code in the repository to be able to us own the compile.</description>
+	    <description lang="pt_BR">Mesmo com disponibilidade de IKaS gratuito, você pode "turbinar" seu aparelho adicionando CS. Se não tiver IKaS na sua cidade, aproveite o KS ou adicione diretamente CS. Custo mensal/anual baixo e muitos beneficios.</description>
+	    <disclaimer lang="en">OSCam is Open Source.</disclaimer>
+	    <disclaimer lang="pt_BR">OSCam é gratuito e de código aberto.</disclaimer>
+        <platform>all</platform>
+	</extension>
+</addon>

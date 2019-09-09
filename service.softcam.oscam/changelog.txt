@@ -1,0 +1,104 @@
+30.1.17
+- Trocado metodo defasado do KODI.
+- Adicionado suporte ao KS no Pixel.
+
+30.1.16
+-Makeover
+
+30.1.15
+- Atualizado oscam para última versão.
+- Corrigido Service ID no protocolo radegast.
+
+30.1.14
+- Adicionado modificações para evitar problemas com algumas atualizações do i-Smart.
+
+30.1.11
+- Bugfix.
+
+30.1.10
+- Mudanças por causa do servidor KS.
+
+30.1.9
+- Só para evitar problemas com outros repositórios.
+
+2.1.9
+- Adicionado CAID.
+
+2.1.8
+- Pequena correção.
+
+2.1.7
+- Definido variáveis temporárias.
+
+2.1.6
+- Várias modificações internas.
+- Corrigido codificação para UTF-8.
+- Implementado dados do Servidor NID e ONID.
+- Implementado novas funções de validação e tela de configurações.
+
+2.0.9
+- Várias modificações internas.
+- Adicionado suporte ao Serviço de KS Gratuito.
+
+2.0.6
+- Adicionado configurações do serviço nas propriedades do Add-on.
+  Com isso você pode configurar Usuário, Senha, Porta, Log e ec... do OSCam.
+- Adicionado notificações do Status do Serviço, sempre que o serviço trocar de Status você será  notificado.
+  OBS: Você pode desativar essas notificações nas configurações do Add-on. (Não indicado)
+- Ainda não foi adicionado o Status no Gerênciador, mais desativando e reativando um Servidor da Lista você irá receber a mensagem de troca de status.
+
+2.0.2
+- Re-estruturado todo o Add-on para funcionar apenas como serviço.
+- Adicionado um Gerenciador do Servico para melhor utilizacao.
+- Adicionado muitas outras funcoes internas.
+- Utilize o Gerenciador em PROGRAMAS no KODI para configurar o servico.
+
+1.0.16
+- Atualizado o OSCam para o build r10985.
+
+1.0.15
+- Feito uma mudança de designer nas configurações.
+
+1.0.14
+- Atualizado o OSCam para o build r10945.
+
+1.0.13
+- Corrigido strings.
+
+1.0.12
+- Adicionado suporte para Exportar e Importar as Configurações
+- Modificado para aparecer na parte de Programas do KODI.
+
+1.0.11
+- Adicionado Último Status do Servidor na Tela de Configurações do Addon.
+
+1.0.10
+- Modificado para suportar dois servidores.
+- Melhorado tratamento interno.
+
+1.0.9
+- Recompilado ultima versão do oscam.
+- Problema para resolver o IP do CS, aparentemente resolvido.
+
+1.0.8
+- Atualizado o OSCam do build r10663 para r10892.
+- Corrigido alto consumo do processador impossibilitando o uso na nova versão.
+- Adicionado flag para desativar o Serviço de IKS.
+
+1.0.7
+- Corrigido o tempo para verificar o status do CS.
+
+1.0.6
+- Adicionado tratamento para outros status.
+
+1.0.5
+- Corrigido a conexão com a API do OSCam.
+
+1.0.4
+- Corrigido versão atual do addon.
+
+1.0.3
+- Adicionado notificação sobre o status do CS
+
+1.0.0
+- Versão inicial
