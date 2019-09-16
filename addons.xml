@@ -23,118 +23,79 @@
         </extension>
     </addon>
 
-    <addon id="plugin.video.atto" name="[B][COLOR black]_[COLOR aqua]ATTO[COLOR blue] - [COLOR gold]CANAIS[COLOR blue] - [COLOR white]IPTV[/COLOR][/B]" version="6.9" provider-name="[COLOR aqua]Team ATTO[/COLOR]">
-        <requires>
-            <import addon="xbmc.python" version="2.19.0" />
-            <import addon="script.module.t0mm0.common" version="2.1.1" />
-            <import addon="script.module.beautifulsoup" version="3.2.1" />
-            <import addon="script.module.simple.downloader" version="1.9.5" />
-            <import addon="script.module.beautifulsoup4" />
-            <import addon="script.module.simple.downloader" version="1.9.5" />
-            <import addon="script.module.requests" />
-            <import addon="script.module.httplib2" />
-            <import addon="script.module.youtube.dl" optional="true" />
-            <import addon="plugin.video.youtube" version="5.3.12" />
-            <import addon="script.module.urlresolver" />
-            <import addon="script.module.simplejson" />
-            <import addon="script.common.plugin.cache" version="2.5.5" />
-            <import addon="script.module.metahandler" version="2.9.0" />
-            <import addon="repository.atto.team2.repository" optional="false" />
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="default.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">[COLOR aqua]Canais IPTV Premium, sem antenas pela internet.[/COLOR]</summary>
-            <description lang="en">[COLOR blue]Atto-Canais-IPTV[COLOR aqua] agrega e organiza os links externos de outras fontes de IPTV. De modo que o usuário pode encontrar tudo o que você está procurando em um só lugar. Mas não somos responsáveis pelo conteúdo apresentado.[/COLOR]</description>
-            <disclaimer lang="en">[COLOR aqua]O autor não hospeda qualquer conteúdo exibido por este addon. Atto.TV não tem qualquer afiliação com o provedor de conteúdo.[/COLOR]</disclaimer>
-            <website>https://atto.tv/</website>
-            <forum>https://atto.tv/forum</forum>
-            <license>http://www.gnu.org/licenses/</license>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
+<addon id="plugin.video.atto" name="[B][COLOR black]_[COLOR aqua]ATTO[COLOR blue] - [COLOR gold]CANAIS[COLOR blue] - [COLOR white]IPTV[/COLOR][/B]" version="7.0" provider-name="[COLOR aqua]Team ATTO[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.t0mm0.common" version="2.1.1" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.simple.downloader" version="1.9.5" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.simple.downloader" version="1.9.5" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.httplib2" />
+        <import addon="script.module.youtube.dl" optional="true" />
+        <import addon="plugin.video.youtube" version="5.3.12" />
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.common.plugin.cache" version="2.5.5" />
+        <import addon="script.module.metahandler" version="2.9.0" />
+        <import addon="repository.atto.team2.repository" optional="false" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="run.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR aqua]Canais IPTV, sem antenas pela internet.[/COLOR]</summary>
+        <description lang="en">[COLOR fuchsia]AttoCanais, É um mecanismo de pesquisa e transmissão de links. Não navega em sites de Iptv, por razões legais. No entanto, tem complementos especialmente projetados (chamados de provedores ou fornecedores) que são instalados separadamente.[/COLOR]</description>
+        <disclaimer lang="en">[COLOR aqua]O autor não é responsável pelo conteúdo encontrado neste addon. O autor não hospeda qualquer conteúdo encontrado dentro deste addon. O autor não está vinculado ou relacionado de forma alguma a Kodi, Team Kodi ou XBMC Foundation.[COLOR]</disclaimer>
+        <website>https://atto.tv/</website>
+        <forum>https://atto.tv/forum</forum>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3.</license>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 
-    <addon id="plugin.video.atto.filmes" name="[B][COLOR black]_[COLOR aqua]ATTO[COLOR white] - [COLOR violet]FILMES![/COLOR][/B]" version="2.3" provider-name="[COLOR aqua]Team ATTO[/COLOR]">
-        <requires>
-            <import addon="xbmc.python" version="2.19.0" />
-            <import addon="script.module.t0mm0.common" version="2.1.1" />
-            <import addon="script.module.beautifulsoup" version="3.2.1" />
-            <import addon="script.module.simple.downloader" version="1.9.5" />
-            <import addon="script.module.beautifulsoup4" />
-            <import addon="script.module.simple.downloader" version="1.9.5" />
-            <import addon="script.module.requests" />
-            <import addon="script.module.httplib2" />
-            <import addon="script.module.youtube.dl" optional="true" />
-            <import addon="plugin.video.youtube" version="5.3.12" />
-            <import addon="script.module.urlresolver" />
-            <import addon="script.module.simplejson" />
-            <import addon="script.common.plugin.cache" version="2.5.5" />
-            <import addon="script.module.metahandler" version="2.9.0" />
-            <import addon="repository.atto.team2.repository" optional="false" />
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="default.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">[COLOR aqua]Filmes[COLOR gold]HD[/COLOR], [COLOR gold]SD[/COLOR], [COLOR gold]Novelas[/COLOR], [COLOR gold]Animes[/COLOR], [COLOR gold]Documentarios[/COLOR], [COLOR gold]Desenhos[/COLOR], [COLOR gold]Etc[/COLOR], [COLOR gold]Dublados[/COLOR]
-                e [COLOR gold]Legendados[/COLOR]. A melhor recipiente de filmes!, aqui você encontra tudo[/COLOR]</summary>
-            <description lang="en">[COLOR blue][B]Atto.TV[/B][COLOR aqua], Oferece Filmes [COLOR gold]HD[/COLOR], [COLOR gold]720P[/COLOR], [COLOR gold]SD[/COLOR], [COLOR gold]Novelas[/COLOR], [COLOR gold]Animes[/COLOR], [COLOR gold]Documentarios[/COLOR], [COLOR gold]Desenhos[/COLOR],
-                [COLOR gold]Etc[/COLOR], [COLOR gold]Dublados[/COLOR] e [COLOR gold]Legendados[/COLOR], pela internet, não precisa antena. Qualidade de imagen TOP com [COLOR gold]Doulby Vision[/COLOR]. Tecnologia "hassle free" da Atto, o melhor conteúdo
-                Media Center.[/COLOR]</description>
-            <disclaimer lang="en">[COLOR aqua]O autor não hospedar ou distribuir qualquer conteúdo exibido por este complemento.[COLOR blue][B] Atto.TV [/B][/COLOR]tem nenhuma afiliação com o provedor de conteúdo.[COLOR blue][B] Atto.TV [/B][/COLOR]somente é responsável por
-                coletar os melhores filmes da Internet, categorização e otimizá-los, de modo a que esta ao alcance de seus clientes. tão fácil e descomplicada.[/COLOR]</disclaimer>
-            <website>http://atto.tv/</website>
-            <forum>https://atto.tv/antiforum/</forum>
-            <license>http://www.gnu.org/licenses/</license>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
+    <addon id="plugin.video.atto.filmes" name="[B][COLOR black]_[COLOR aqua]ATTO[COLOR white] - [COLOR violet]FILMES![/COLOR][/B]" version="2.4" provider-name="[COLOR aqua]Team ATTO[/COLOR]">
+<addon id="plugin.video.atto.series" name="[B][COLOR black]_[COLOR aqua]ATTO[COLOR white] - [COLOR pink]SERIES![/COLOR][/B]" version="2.4" provider-name="[COLOR aqua]Team ATTO[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.t0mm0.common" version="2.1.1" />
+        <import addon="script.module.beautifulsoup" version="3.2.1" />
+        <import addon="script.module.simple.downloader" version="1.9.5" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.simple.downloader" version="1.9.5" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.httplib2" />
+        <import addon="script.module.youtube.dl" optional="true" />
+        <import addon="plugin.video.youtube" version="5.3.12" />
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.common.plugin.cache" version="2.5.5" />
+        <import addon="script.module.metahandler" version="2.9.0" />
+        <import addon="repository.atto.team2.repository" optional="false" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="run.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR aqua]AttoSeries: Conteúdo VoD, disponível na internet[/COLOR]</summary>
+        <description lang="en">[COLOR fuchsia]AttoSeries, É um mecanismo de pesquisa e transmissão de links. Não navega em sites de Filmes ou Series, por razões legais. No entanto, tem complementos especialmente projetados (chamados de provedores ou fornecedores) que são instalados separadamente.[/COLOR]</description>
+        <disclaimer lang="en">[COLOR aqua]O autor não é responsável pelo conteúdo encontrado neste addon. O autor não hospeda qualquer conteúdo encontrado dentro deste addon. O autor não está vinculado ou relacionado de forma alguma a Kodi, Team Kodi ou XBMC Foundation.[COLOR]</disclaimer>
+        <website>http://atto.tv/</website>
+        <forum>https://atto.tv/forum</forum>
+        <license>http://www.gnu.org/licenses/</license>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 
-    <addon id="plugin.video.atto.series" name="[B][COLOR black]_[COLOR aqua]ATTO[COLOR white] - [COLOR pink]SERIES![/COLOR][/B]" version="2.3" provider-name="[COLOR aqua]Team ATTO[/COLOR]">
-        <requires>
-            <import addon="xbmc.python" version="2.19.0" />
-            <import addon="script.module.t0mm0.common" version="2.1.1" />
-            <import addon="script.module.beautifulsoup" version="3.2.1" />
-            <import addon="script.module.simple.downloader" version="1.9.5" />
-            <import addon="script.module.beautifulsoup4" />
-            <import addon="script.module.simple.downloader" version="1.9.5" />
-            <import addon="script.module.requests" />
-            <import addon="script.module.httplib2" />
-            <import addon="script.module.youtube.dl" optional="true" />
-            <import addon="plugin.video.youtube" version="5.3.12" />
-            <import addon="script.module.urlresolver" />
-            <import addon="script.module.simplejson" />
-            <import addon="script.common.plugin.cache" version="2.5.5" />
-            <import addon="script.module.metahandler" version="2.9.0" />
-            <import addon="repository.atto.team2.repository" optional="false" />
-        </requires>
-        <extension point="xbmc.python.pluginsource" library="default.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">[COLOR aqua]A lista mais completa da série de TV em um só lugar.[/COLOR]</summary>
-            <description lang="en">[COLOR blue]Atto.TV[COLOR aqua], Oferece uma das listas mais completas de série. Atualmente ele contém mais de 100 séries, carregado com todas as temporadas, dubladas e legendadas, com uma qualidade de vídeo de 1080p - 720p[/COLOR]</description>
-            <disclaimer lang="en">[COLOR aqua]O autor não hospedar ou distribuir qualquer conteúdo exibido por este complemento.[COLOR blue][B] Atto.TV [/B][/COLOR]tem nenhuma afiliação com o provedor de conteúdo.[COLOR blue][B] Atto.TV [/B][/COLOR]somente é responsável por
-                coletar os melhores series da Internet, categorização e otimizá-los, de modo a que esta ao alcance de seus clientes. tão fácil e descomplicada.[/COLOR]</disclaimer>
-            <website>http://atto.tv/</website>
-            <forum>https://atto.tv/forum</forum>
-            <license>http://www.gnu.org/licenses/</license>
-            <platform>all</platform>
-            <assets>
-                <icon>icon.png</icon>
-                <fanart>fanart.jpg</fanart>
-            </assets>
-        </extension>
-    </addon>
 
     <addon id="plugin.video.atto.torrents" name="[B][COLOR black]_[COLOR aqua]ATTO[COLOR white] - [/COLOR][COLOR lime]TORRENTS![/COLOR][/B]" version="1.4" provider-name="[COLOR lime]Team - ATTO[/COLOR]">
         <requires>
