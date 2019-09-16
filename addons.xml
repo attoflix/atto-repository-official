@@ -26,24 +26,6 @@
     </addon>
 
     <addon id="repository.BrazucaPlay" name="[B][COLOR white]Brazuca Play [COLOR blue]Repo[/COLOR][/COLOR][/B]" version="1.3" provider-name="Brazuca Play">
-        <requires>
-            <import addon="xbmc.python" version="2.1.0" />
-            <import addon="script.module.beautifulsoup" />
-            <import addon="script.module.simple.downloader" />
-            <import addon="script.module.t0mm0.common" />
-            <import addon="script.module.beautifulsoup4" />
-            <import addon="script.module.requests" />
-            <import addon="script.module.httplib2" />
-            <import addon="script.module.simple.downloader" />
-            <import addon="script.module.urlresolver" />
-            <import addon="script.module.simplejson" />
-            <import addon="script.module.livestreamer" />
-            <import addon="script.module.pyamf" />
-            <import addon="script.common.plugin.cache" />
-            <import addon="script.module.metahandler" />
-            <import addon="script.module.addon.common" />
-            <import addon="script.module.addon.signals" />
-        </requires>
         <extension point="xbmc.addon.repository" name="Brazuca Play Repository">
             <info compressed="false">https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons.xml</info>
             <checksum>https://raw.github.com/skyrisk/brazucaplay/master/addons/repo/addons.xml.md5</checksum>
@@ -70,26 +52,6 @@
     </addon>
 
     <addon id="repo.conexaoTV" name="[B][COLOR white]Repositorio Cone[B][COLOR violet]x[B][COLOR  white]ão[/COLOR][/B] [B][COLOR violet]Tv[/COLOR][/B]" version="1.0.1" provider-name="Marciocn">">
-        <requires>
-            <import addon="xbmc.python" version="2.1.0" />
-            <import addon="script.module.simple.downloader" version="0.9.4" />
-            <import addon="script.module.t0mm0.common" version="2.0.0" />
-            <import addon="script.module.beautifulsoup4" />
-            <import addon="script.module.requests" />
-            <import addon="script.module.httplib2" />
-            <import addon="script.module.simple.downloader" version="0.9.4" />
-            <import addon="plugin.video.youtube" version="5.2.1" />
-            <import addon="script.module.urlresolver" />
-            <import addon="script.module.simplejson" />
-            <import addon="script.module.livestreamer" />
-            <import addon="script.module.pyamf" />
-            <import addon="script.common.plugin.cache" version="2.5.2" />
-            <import addon="script.module.metahandler" version="2.5.1" />
-            <import addon="script.module.addon.common" />
-            <import addon="script.module.addon.signals" version="0.0.1" />
-            <import addon="script.module.youtube.dl" optional="true" />
-
-        </requires>
         <extension point="xbmc.addon.repository" name="Vikings Repository">
             <info compressed="false">http://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml</info>
             <checksum>http://raw.github.com/Marciocn/repo.conexaoTV/master/addons.xml.md5</checksum>
@@ -241,43 +203,43 @@
     </addon>
 
     <addon id="plugin.video.conexao" name="[B][COLOR white]Conexao[COLOR red] Tv[/COLOR][COLOR white] - [COLOR darkcyan] [PORTUGUÊS][/COLOR][/B]" version="2.0.8" provider-name="[B][COLOR beige]Cone[B][COLOR aqua][B]x[/B][COLOR  beige][B]ão[/COLOR][COLOR red] Tv[/COLOR][/B]">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.t0mm0.common" version="2.0.0" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.simple.downloader" version="0.9.4" />
-        <import addon="script.module.beautifulsoup4" />
-        <import addon="script.module.simple.downloader" version="0.9.4" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.httplib2" />
-        <import addon="script.module.youtube.dl" optional="true" />
-        <import addon="script.module.urlresolver" />
-        <import addon="script.module.simplejson" />
-        <import addon="script.common.plugin.cache" version="2.5.2" />
-        <import addon="script.module.metahandler" version="2.5.1" />
-        <import addon="script.module.livestreamer" optional="true" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="youtube.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[B][COLOR beige]Cone[COLOR red][B]x[/B][COLOR beige][B]ão[/COLOR][COLOR blue]-[COLOR aquamarine]Multi[COLOR blue]-[COLOR aqua]Addons[/COLOR][/B][COLOR aqua][B] Feito Pra Você[/B][/COLOR]</summary>
-        <disclaimer lang="en">O autor não é responsável pelo uso deste addon. O autor não é responsável pelo conteúdo encontrado usando este addon. O autor não hospeda ou possui qualquer conteúdo encontrado dentro deste addon. O autor não é de forma alguma afiliado com Kodi,
-            Team Kodi, ou a Fundação XBMC. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais. fins protegidos pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove a liberdade
-            de expressão, ao permitir o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
-        <description lang="en">[COLOR lime]*TV*[COLOR red]*FILMES*[/COLOR][COLOR firebrick]*SERIES*[COLOR blue]*DESENHOS*[COLOR orange]*ANIMES*[COLOR cyan]*LANCAMENTOS*[COLOR lime]*HD*[COLOR yellow]*FHD*[/COLOR]</description>
-        <news>[COLOR lime] Atualização[COLOR red] v2.0.7:[/COLOR] [COLOR violet][B]Melhor Desempenho[/B][/COLOR] [COLOR god][B]Melhorias de estabilidade[/B][/COLOR]
-        </news>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshots/1.jpeg</screenshot>
-            <screenshot>resources/screenshots/2.jpeg</screenshot>
-            <screenshot>resources/screenshots/3.jpeg</screenshot>
-        </assets>
-    </extension>
-</addon>
+        <requires>
+            <import addon="xbmc.python" version="2.1.0" />
+            <import addon="script.module.t0mm0.common" version="2.0.0" />
+            <import addon="script.module.beautifulsoup" version="3.2.1" />
+            <import addon="script.module.simple.downloader" version="0.9.4" />
+            <import addon="script.module.beautifulsoup4" />
+            <import addon="script.module.simple.downloader" version="0.9.4" />
+            <import addon="script.module.requests" />
+            <import addon="script.module.httplib2" />
+            <import addon="script.module.youtube.dl" optional="true" />
+            <import addon="script.module.urlresolver" />
+            <import addon="script.module.simplejson" />
+            <import addon="script.common.plugin.cache" version="2.5.2" />
+            <import addon="script.module.metahandler" version="2.5.1" />
+            <import addon="script.module.livestreamer" optional="true" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="youtube.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">[B][COLOR beige]Cone[COLOR red][B]x[/B][COLOR beige][B]ão[/COLOR][COLOR blue]-[COLOR aquamarine]Multi[COLOR blue]-[COLOR aqua]Addons[/COLOR][/B][COLOR aqua][B] Feito Pra Você[/B][/COLOR]</summary>
+            <disclaimer lang="en">O autor não é responsável pelo uso deste addon. O autor não é responsável pelo conteúdo encontrado usando este addon. O autor não hospeda ou possui qualquer conteúdo encontrado dentro deste addon. O autor não é de forma alguma afiliado com
+                Kodi, Team Kodi, ou a Fundação XBMC. Este é um recurso sem fins lucrativos, organizado exclusivamente para fins educacionais. fins protegidos pela doutrina de uso justo da Lei de Direitos Autorais, especificamente a seção 107, que promove
+                a liberdade de expressão, ao permitir o uso não licenciado de obras protegidas por direitos autorais.</disclaimer>
+            <description lang="en">[COLOR lime]*TV*[COLOR red]*FILMES*[/COLOR][COLOR firebrick]*SERIES*[COLOR blue]*DESENHOS*[COLOR orange]*ANIMES*[COLOR cyan]*LANCAMENTOS*[COLOR lime]*HD*[COLOR yellow]*FHD*[/COLOR]</description>
+            <news>[COLOR lime] Atualização[COLOR red] v2.0.7:[/COLOR] [COLOR violet][B]Melhor Desempenho[/B][/COLOR] [COLOR god][B]Melhorias de estabilidade[/B][/COLOR]
+            </news>
+            <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>resources/screenshots/1.jpeg</screenshot>
+                <screenshot>resources/screenshots/2.jpeg</screenshot>
+                <screenshot>resources/screenshots/3.jpeg</screenshot>
+            </assets>
+        </extension>
+    </addon>
 
     <addon id="plugin.video.adulthideout" name="[COLOR yelloworng]_[COLOR pink][B]AdultHideout[COLOR white] - [COLOR red] [18+][/B][/COLOR]" version="0.8.6" provider-name="Vashiel">
         <requires>
