@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
-    <addon id="repository.atto.team2.repository" name="[COLOR blue][B]ATTO PIXEL[/COLOR][COLOR yellow] 4K [/COLOR][COLOR aqua]REPOSITORY[/B][/COLOR]" provider-name="[COLOR aqua]Team ATTO[/COLOR]" version="2.8">
+    <addon id="repository.atto.team2.repository" name="[B][COLOR aqua][COLOR fuchsia]ATTO OFFICAL REPOSITORY [COLOR gold]V2.8[/B][/COLOR]" provider-name="[COLOR aqua]Team ATTO[/COLOR]" version="2.8">
         <extension point="xbmc.addon.repository" name="Repository Team Atto">
-            <info compressed="true">https://raw.github.com/attoflix/atto-repository-official/addons.xml</info>
-            <checksum>https://atto1.websiteseguro.com/addons/addons.xml.md5</checksum>
-            <datadir zip="true">https://atto1.websiteseguro.com/addons/</datadir>
+            <info compressed="true">https://raw.githubusercontent.com/attoflix/atto-repository-official/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/attoflix/atto-repository-official/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/attoflix/atto-repository-official/master/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
