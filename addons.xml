@@ -65,19 +65,6 @@
         </extension>
     </addon>
 
-    <addon id="repository.quasar" name="Quasar Repository" version="0.9.78" provider-name="scakemyer">
-        <requires></requires>
-        <extension point="xbmc.addon.repository" name="Quasar Repository">
-            <info compressed="false">http://localhost:65251/repository/scakemyer/plugin.video.quasar/addons.xml</info>
-            <checksum>http://localhost:65251/repository/scakemyer/plugin.video.quasar/addons.xml.md5</checksum>
-            <datadir zip="true">http://localhost:65251/repository/scakemyer/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <summary lang="en">GitHub repository for Quasar updates</summary>
-        </extension>
-    </addon>
-
     <addon id="repo.vikings" name="[B][COLOR yellow]  Vikings  [COLOR orange]Repo[/B][/COLOR]" version="1.08.1" provider-name="Vikings Builds by @Pio">">
         <requires>
             <import addon="xbmc.python" version="2.1.0" />
@@ -321,6 +308,7 @@
         <requires>
             <import addon="xbmc.addon" version="16.0.0" />
             <import addon="xbmc.python" version="2.24.0" />
+            <import addon="repository.quasar" optional="true" />
             <import addon="script.quasar.burst" optional="true" />
         </requires>
         <extension point="xbmc.python.pluginsource" library="navigation.py">
@@ -342,6 +330,9 @@
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
+                <screenshot>resources/screenshots/home.jpg</screenshot>
+                <screenshot>resources/screenshots/movies.jpg</screenshot>
+                <screenshot>resources/screenshots/webui.png</screenshot>
             </assets>
         </extension>
     </addon>
@@ -519,7 +510,7 @@
         </extension>
     </addon>
 
-    <addon id="plugin.video.braziltv" name="[B][COLOR white]BrazilTV[/COLOR][/B]" version="1.0" provider-name="teamBrazilTV">
+    <addon id="plugin.video.braziltv" name="[B][COLOR white]BrazilTV Kodi+17[/COLOR][/B]" version="1.0" provider-name="teamBrazilTV">
         <requires>
             <import addon="xbmc.python" version="2.24.0" />
             <import addon="plugin.video.f4mTester" version="2.7.1" />
@@ -788,7 +779,7 @@
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>[COLOR green][B]Brasil [/B][/COLOR][COLOR yellow][B]Full[/B][/COLOR] - Saiu Dublado, Saiu Aqui</summary>
+            <summary>[COLOR green][B]Brasil [/B][/COLOR][COLOR y ellow][B]Full[/B][/COLOR] - Saiu Dublado, Saiu Aqui</summary>
             <description lang="en">[COLOR white][B]Add-on brasileiro com conteúdos dublados no idioma pt-BR, qualidade minima em 720p e máxima de 4K.[/B][/COLOR]</description>
             <disclaimer lang="en">Todo o conteúdo encontrado neste addon esta em um servidor próprio e é armazenado e upado pela equipe Brasil Full, qualquer cópia de conteudo eu vou saber. O uso deste addon é PIRATARIA então caso não goste deste tipo de conteúdo recomendo
                 que não instalem, tanto eu como você (usuário) podem ser punidos pela lei Anti-Pirataria então use por conta, risco e foda-se.</disclaimer>
