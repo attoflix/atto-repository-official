@@ -1903,7 +1903,7 @@
 
     <addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.3.2" provider-name="Leonard Richardson (leonardr@segfault.org)">
         <requires>
-            <import addon="xbmc.python" version="2.1.0" />
+            <import addon="xbmc.python" version="2.25.0" />
         </requires>
         <extension point="xbmc.python.module" library="lib" />
         <extension point="xbmc.addon.metadata">
